@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="signup-form">
+        <h3>Enter your name to sign up!</h3>
+        <form action="{{url_for('loggedin')}}">
+            <label for="fname">First Name: </label>
+            <input #fname type="text" name="fname-data">
+            <label for="lname">Last Name: </label>
+            <input type="text" name="lname-data" id="lname">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+{% endblock content %}

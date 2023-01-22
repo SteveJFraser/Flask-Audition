@@ -1,0 +1,66 @@
+body {
+    background-color: rgba(1, 99, 66, 0.712);
+    margin: 0px;
+    background: url('../static/logo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.container-fluid {
+    /*background-color: darkslategrey;*/
+    background:linear-gradient(#262626,#eaeaea,#262626);
+}
+.btn {
+    position: relative;
+    left: 5%;
+    background-color: rgba(95, 158, 160, 0.356);
+    border: 0.5px solid silver;
+}
+.btn-2{
+    position: relative;
+    right: 5%;
+    background-color: rgba(95, 158, 160, 0.356);
+    border: 0.5px solid silver;
+    border-radius: 5px;
+    padding: 5px 10px 5px;
+}
+a {
+text-decoration: none;
+color: rgb(7, 17, 53);
+}
+a:hover {
+text-decoration: none;
+color: rgb(7, 17, 53);
+}
+.signup-form {
+position: absolute;
+bottom: 1px;
+left: 30%;
+background:linear-gradient(#262626,#eaeaea,#262626);
+margin: 0 auto;
+max-width: 700px;
+border-radius: 10px;
+padding-top: 5px;
+padding-bottom: 30px;
+padding-left: 20px;
+padding-right: 5px;
+text-align: center;
+
+}
+.content {
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+color: silver;
+}
+input {
+border-radius: 10px;
+}
+label {
+font-size: 1.2rem;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+}
